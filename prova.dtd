@@ -1,0 +1,5 @@
+<!ELEMENT TEI(header, facsimile?, text+)>
+
+<!ELEMENT header()>
+<!ELEMENT facsimile?()>
+<!ELEMENT text+(),seg?()>		

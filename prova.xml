@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?target instruction?> <?xml-stylesheet type="text/css" href="main.css" media="all" ?>
+<xsd:schema
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+	<xsd:element name="text" />
+	</xsd:schema>
+
+	<!--
+		Questo è un commento 
+
+		Filename : Prova.xml
+		Author : Mario Fernandez Gomis 
+		Date : 	Lundi 8 octobre 2018
+
+		xml non permette di codificare strutture sovrapposte
+		uri : identicativo univoco globale
+		Facebook clash of clans 
+		(2 trattini)dtdvalid tei.dtd tei.xml ==> prendere un documento xml e validarlo con la dtd
+	-->
+	<choice> E un elemento che contiene altri elementi
+		<sic>Testo con errore </sic>
+		<cor>Testo corretto</cor> 
+	</choice>
+	<text>Il primo documento validato</text>
+
+
+		<!-- 
+			Tutto quello che viene scritto nel interno non viene ne letto ne interpretato, communemennte usato per commentare
+		-->
+
+	<htmlCode> <![CDATA[ <h1>Capitolo Primo</h1>
+				<h2>Sezione Seconda</h2> ]]> </htmlCode>
+
+		<!-- 
+			<tutto>tutto e un elemento</tutto>
+		    Un attributo puo essere solo simpletype 
+		    ComplexElement o ha un attributo e ha dei figli
+		    extension per stendere un tipo simple
+		    sito della tei 1-2-3-4 obbligatori e 1 a scelta 
+		    
+		-->
